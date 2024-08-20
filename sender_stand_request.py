@@ -10,10 +10,11 @@ def post_new_user(body):
 
 authtoken = post_new_user(data.dict_user_creation)
 box_auth = authtoken.json()["authToken"]
-bearer = "Bearer "
-header_auth = bearer + box_auth
+
 
 def conversion_of_header():
+    bearer = "Bearer "
+    header_auth = bearer + box_auth
     kit_header = data.headers.copy()
     kit_header["Authorization"] = header_auth
     return kit_header
