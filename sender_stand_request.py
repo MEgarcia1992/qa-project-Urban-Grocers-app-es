@@ -8,11 +8,9 @@ def post_new_user(body):
                          headers=data.headers)  # inserta los encabezados
 
 
-authtoken = post_new_user(data.dict_user_creation)
-box_auth = authtoken.json()["authToken"]
-
-
 def conversion_of_header():
+    authtoken = post_new_user(data.dict_user_creation) #variable movida adentro del metodo
+    box_auth = authtoken.json()["authToken"] #variable movida adentro del metodo
     bearer = "Bearer "
     header_auth = bearer + box_auth
     kit_header = data.headers.copy()
