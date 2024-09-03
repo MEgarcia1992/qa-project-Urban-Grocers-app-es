@@ -18,7 +18,8 @@ Urban Grocers.
 
 # La siguiente descripcion habla de como ejecutar las pruebas en el actual proyecto:
 1) Si tienes descargado PyCharm ignora esta instruccion. Si no es el caso entonces descarga la version gratuita de PyCharm y elige la opcion que coincida con tu hardware.
-![image](https://github.com/user-attachments/assets/481cb7fa-f932-436f-8e02-ea20ec23d91c)
+![Captura de pantalla 2024-09-03 a la(s) 12 49 38 p m](https://github.com/user-attachments/assets/cc64f5fe-b551-4e03-8dc7-db0bf1c10d3e)
+
 
 1) Para el actual proyecto se descargaron los packages "requests" y "pytest" (si no estan instalados deben instalarse 
 para poderse ejecutar)
