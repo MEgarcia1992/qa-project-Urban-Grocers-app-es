@@ -18,13 +18,17 @@ Urban Grocers.
 
 # La siguiente descripcion habla de como ejecutar las pruebas en el actual proyecto:
 1) Si tienes descargado PyCharm ignora esta instruccion. Si no es el caso entonces descarga la version gratuita de PyCharm y elige la opcion que coincida con tu hardware. Abre la imagen para que veas donde tienes que elegir la version gratuita.
+
 ![Captura de pantalla 2024-09-03 a la(s) 12 49 38 p m](https://github.com/user-attachments/assets/cc64f5fe-b551-4e03-8dc7-db0bf1c10d3e)
+
 -Asegurate de descargarlo con las configuraciones recomendadas y de facto.
 -Extrae el repositorio a travez de git y github
 -Abre PyCharm y te aparecera una ventana para iniciar un proyecto o abrirlo si ya existe (lo cual es la opcion que vamos a utilizar por que lo extrajiste de Github)
 -Elige la opcion "open"
-<img width="801" alt="Captura de pantalla 2024-09-03 a la(s) 1 06 00 p m" src="https://github.com/user-attachments/assets/8aa23282-3531-4d70-b7a7-ea0b6baff6b6">
 -Usa el path donde se guardo el repositorio en tu pc y abrelo.
+
+<img width="801" alt="Captura de pantalla 2024-09-03 a la(s) 1 06 00 p m" src="https://github.com/user-attachments/assets/8aa23282-3531-4d70-b7a7-ea0b6baff6b6">
+
 
 2) Para el actual proyecto se descargaron los packages "requests" y "pytest" (si no estan instalados deben instalarse para poderse ejecutar)
 -En la parte inferior de la interfaz busca el simbolo de packages y haz click
