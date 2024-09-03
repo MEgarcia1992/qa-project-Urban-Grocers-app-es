@@ -17,18 +17,28 @@ Urban Grocers.
 3) Enter
 
 # La siguiente descripcion habla de como ejecutar las pruebas en el actual proyecto:
-1) Si tienes descargado PyCharm ignora esta instruccion. Si no es el caso entonces descarga la version gratuita de PyCharm y elige la opcion que coincida con tu hardware.
+1) Si tienes descargado PyCharm ignora esta instruccion. Si no es el caso entonces descarga la version gratuita de PyCharm y elige la opcion que coincida con tu hardware. Abre la imagen para que veas donde tienes que elegir la version gratuita.
 ![Captura de pantalla 2024-09-03 a la(s) 12 49 38 p m](https://github.com/user-attachments/assets/cc64f5fe-b551-4e03-8dc7-db0bf1c10d3e)
+-Asegurate de descargarlo con las configuraciones recomendadas y de facto.
+-Extrae el repositorio a travez de git y github
+-Abre PyCharm y te aparecera una ventana para iniciar un proyecto o abrirlo si ya existe (lo cual es la opcion que vamos a utilizar por que lo extrajiste de Github)
+-Elige la opcion "open"
+<img width="801" alt="Captura de pantalla 2024-09-03 a la(s) 1 06 00 p m" src="https://github.com/user-attachments/assets/8aa23282-3531-4d70-b7a7-ea0b6baff6b6">
+-Usa el path donde se guardo el repositorio en tu pc y abrelo.
 
+2) Para el actual proyecto se descargaron los packages "requests" y "pytest" (si no estan instalados deben instalarse para poderse ejecutar)
+-En la parte inferior de la interfaz busca el simbolo de packages y haz click
+-Busca la libreria Pytest
+-Instalala.
+-Haz lo mismo con la libreria "Requests" si aplica.
+![Captura de pantalla 2024-09-03 a la(s) 1 12 23 p m](https://github.com/user-attachments/assets/dc395fe4-c902-46b5-bd87-306cffd964f7)
 
-1) Para el actual proyecto se descargaron los packages "requests" y "pytest" (si no estan instalados deben instalarse 
-para poderse ejecutar)
-2) configuration.py contiene URL y paths como variables y data.py contiene diccionarios que se utilizaran a lo largo
-del archivo create_kit_name_kit_test.py
-3) Para asegurar efectividad de la automatizacion la variable URL_SERVICE en configuration.py debe actualizarse cada 
-cierto tiempo a traves de iniciar el servidor en la plataforma de TripleTen
-4) El archivo sender_stand_request.py se utilizo para generar el usuario necesario y obtener informacion 
+4) configuration.py contiene URL y paths como variables y data.py contiene diccionarios que se utilizaran a lo largo del archivo create_kit_name_kit_test.py
+5) Para asegurar efectividad de la automatizacion la variable URL_SERVICE en configuration.py debe actualizarse cada cierto tiempo a traves de iniciar el servidor en la plataforma de TripleTen
+6) El archivo sender_stand_request.py se utilizo para generar el usuario necesario y obtener informacion 
 para poder realizar las pruebas en create_kit_name_kit_test.py
-5) Para ejecutar el programa se debe situar en el archivo create_kit_name_kit_test.py y ejecutar Run 
-6) Una de las particularidades de Pytest es identificar las funciones que comienzan con test..... asi que las 9 
-pruebas contenidas en 9 funciones con dicho comienzo son las que deberian ejecutarse.
+7) Para ejecutar el programa se debe situar en el archivo create_kit_name_kit_test.py y ejecutar Run 
+8) Una de las particularidades de Pytest es identificar las funciones que comienzan con test..... asi que las 9 
+pruebas contenidas en 9 funciones con dicho comienzo son las que deberian ejecutarse por lo tanto obtendras unas reporteria donde 4 casos de prueba fallan y 5 son exitosos.
+![Captura de pantalla 2024-09-03 a la(s) 1 36 03 p m](https://github.com/user-attachments/assets/105ebceb-36b8-494b-9a6a-8794c01bc019)
+
