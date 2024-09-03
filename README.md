@@ -5,19 +5,20 @@ El siguiente proyecto aborda pruebas de API especificamente para crear kits a pa
 Urban Grocers.
 
 # Tecnologias Utilizadas
+-Python (lenguaje de programacion utilizado gracias a su versatilidad y facilidad de sintaxis)
+-PyCharm (IDE utilizado por generar un ambiente muy propicio para Python y el cual contiene Pytest y Requests incluidos como packages listos para descargar)
+-Pytest (framework usado en el testing por facilitar una reporteria de cada prueba y en conjunto)
+-Requests (HTTP library que se adapta apropiadamente para Python y se puede utilizar para automatizar pruebas API´s)
 
--PyCharm (Python como lenguaje de programacion)
-# Packages Usados en PyCharm
 
-Requests(usado para solicitar requests para API)
-Pytest (usado para realizar pruebas donde la funcion comience con "test_")
-
-# La documentacion API se puede obtener de la siguiente manera:
-1) Se ejercuta el servidor y se copia la URL del proporcionada en la plataforma TripleTen
-2) Se agrega a la URL el path /docs/
+# La documentacion API se puede obtener desde ApiDocs de la siguiente manera:
+1) Se ejercuta el servidor y se copia la URL del proporcionada en la plataforma TripleTen. Desgraciadamente este paso solo lo podran hacer personas que tienen acceso a la plataforma o sea que estan inscritos al programa de QA analyst.
+2) A la URL obtenida en el paso anterior se le agrega el path /docs/
 3) Enter
 
 # La siguiente descripcion habla de como ejecutar las pruebas en el actual proyecto:
+1) Si tienes descargado PyCharm ignora esta instruccion. Si no es el caso entonces descarga la version gratuita de PyCharm y elige la opcion que coincida con tu hardware.
+![image](https://github.com/user-attachments/assets/481cb7fa-f932-436f-8e02-ea20ec23d91c)
 
 1) Para el actual proyecto se descargaron los packages "requests" y "pytest" (si no estan instalados deben instalarse 
 para poderse ejecutar)
